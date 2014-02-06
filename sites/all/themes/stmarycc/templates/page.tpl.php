@@ -94,6 +94,7 @@
   <?php print render($page['leaderboard']); ?>
 
   <header<?php print $header_attributes; ?>>
+    <div id="innerheader">
 
     <?php if ($site_logo || $site_name || $site_slogan): ?>
       <!-- start: Branding -->
@@ -122,16 +123,18 @@
 
       </div><!-- /end #branding -->
     <?php endif; ?>
-
+    
+    <?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
+    
     <!-- region: Header -->
     <?php print render($page['header']); ?>
-  
+    </div> <!-- end #innerheader -->
+
     <!-- Navigation elements -->
-    <?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
+    
     <?php print render($page['menu_bar']); ?>
     <?php if ($primary_navigation): print $primary_navigation; endif; ?>
     
-
   </header>
 
 
