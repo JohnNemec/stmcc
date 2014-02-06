@@ -125,13 +125,15 @@
 
     <!-- region: Header -->
     <?php print render($page['header']); ?>
+  
+    <!-- Navigation elements -->
+    <?php print render($page['menu_bar']); ?>
+    <?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
+    <?php if ($primary_navigation): print $primary_navigation; endif; ?>
+    
 
   </header>
 
-  <!-- Navigation elements -->
-  <?php print render($page['menu_bar']); ?>
-  <?php if ($primary_navigation): print $primary_navigation; endif; ?>
-  <?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
 
   <!-- Breadcrumbs -->
   <?php if ($breadcrumb): print $breadcrumb; endif; ?>

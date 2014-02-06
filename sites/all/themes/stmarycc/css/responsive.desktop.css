@@ -7,3 +7,14 @@
  *
  * - Read the _README file in this directory, it contains useful help and other information.
  */
+#branding {
+  clear: none;
+  float: left;
+}
+#secondary-menu-bar {
+  clear: none;
+  float: right;
+}
+#primary-menu-bar {
+  float: right;
+}
