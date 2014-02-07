@@ -123,8 +123,11 @@ var {
 /*
  * Wraps all header elements - branding and .region-header
  */
-#header {}
-
+#header{
+  background: none repeat scroll 0 0 #EEECE7;
+  box-shadow: 0 2px 10px #333333;
+  padding: 1.62em 0 0;
+}
 /*
  * Wraps the sidebars the content column
  */
