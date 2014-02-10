@@ -124,9 +124,10 @@ var {
  * Wraps all header elements - branding and .region-header
  */
 #header{
-  background: none repeat scroll 0 0 #EEECE7;
+  background: none repeat scroll 0 0 #231F20;
   box-shadow: 0 2px 10px #333333;
   padding: 1.62em 0 0;
+  position: relative;
 }
 /*
  * Wraps the sidebars the content column
@@ -136,8 +137,9 @@ var {
 /*
  * Main content column wrapper
  */
-#content-column {}
-
+#content-column {
+  background: none repeat scroll 0 0 #EEECE7;
+}
 /*
  * Wraps the main-content-header, the content region and feed-icons. Use this wrapper to style the entire main content column
  */
@@ -496,6 +498,10 @@ a:focus {
   margin-bottom: 0;
 }
 
+.secondary-menu li a {
+  color: #AAAAAA;
+}
+
 
 /* =============================================================================
  *   Superfish
@@ -639,6 +645,47 @@ ul.menu li.last {}
 /* If li.content exists it's a problem, so reset the padding */
 .block .menu li.content {
   padding: 0;
+}
+
+/* TB Mega Menu */
+
+#menu-bar.nav,
+#menu-bar .menu-bar-wrapper{
+  margin: 0;
+}
+#menu-bar .menu-bar-wrapper {
+  background-color: #333333;
+  background-image: -webkit-linear-gradient(top, #231F20 0%, #444444 100%);
+  background-image: linear-gradient(to bottom, #231F20 0%, #444444 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff231F20', endColorstr='#ff444444', GradientType=0);
+  background-repeat: repeat-x;
+}
+.tb-megamenu {
+  background-color: #333333;
+  background-image: -webkit-linear-gradient(top, #231F20 0%, #444444 100%);
+  background-image: linear-gradient(to bottom, #231F20 0%, #444444 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff231F20', endColorstr='#ff444444', GradientType=0);
+  background-repeat: repeat-x;
+  color: #AAAAAA;
+  margin: 0 auto;
+}
+.tb-megamenu .nav > .active > a, 
+.tb-megamenu .nav > .active > a:hover, 
+.tb-megamenu .nav > .active > a:focus,
+.tb-megamenu .nav > li > a:hover, 
+.tb-megamenu .nav > li > a:focus,
+.tb-megamenu .nav-collapse .nav > li.active > a:hover, 
+.tb-megamenu .nav-collapse .nav > li.active > a:focus,
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle,
+.tb-megamenu .nav > li.dropdown.open.active > a:hover, 
+.tb-megamenu .nav > li.dropdown.open.active > a:focus,
+.tb-megamenu .dropdown-menu li > a:hover, 
+.tb-megamenu .dropdown-menu li > a:focus, 
+.tb-megamenu .dropdown-submenu:hover > a,
+.tb-megamenu .nav li.dropdown.open > .dropdown-toggle, 
+.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
+  background-color: inherit;
+  color: #8bb339;
 }
 
 
