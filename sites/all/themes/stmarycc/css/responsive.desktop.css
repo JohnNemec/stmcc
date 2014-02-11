@@ -28,7 +28,7 @@
 /* Main Navigation */
 
 .tb-megamenu {
-  width: 1170px;
+  max-width: 1170px;
 }
 
 /* Search */
@@ -94,6 +94,12 @@
 /* Content Area */
 
 #content-column .content-inner {
-  margin: 0 auto;
-  width: 1170px;
+  margin: 1.62em auto;
+  max-width: 1170px;
+}
+
+/* Hero Banner */
+.herobgwrapper {
+  margin: 1.62em auto 0;
+  max-width: 1170px;
 }
