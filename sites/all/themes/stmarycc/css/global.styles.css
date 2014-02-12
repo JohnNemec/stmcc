@@ -215,6 +215,10 @@ var {
 /*
  * Hero Banner
  */
+.herobgwrapper,
+.views_slideshow_cycle_main {
+  margin: 1.62em auto 0;
+}
 .herobg {
   display: inline-block;
   width: 100%;
