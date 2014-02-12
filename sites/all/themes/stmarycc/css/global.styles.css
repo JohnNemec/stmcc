@@ -313,9 +313,23 @@ var {
  * The main page title (h1)
  */
 #page-title {
+  color: #534934;
+  font-size: 4em;
   margin: 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
+.view-header,
+.group-header {
+  margin-bottom: 4em;
+}
+.view-header p,
+.group-header p {
+  color: #A7997C;
+  font-size: 1.2em;
+  text-align: center;
+}
 
 /* =============================================================================
  *   Misc Global Styles
@@ -362,6 +376,81 @@ ul.links li {
   display: inline;
   list-style: none;
   padding: 0 10px 0 0;
+}
+
+/*
+ * Large Numbered Lists
+ */
+.numlist {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.numlist ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.numlist li.views-row {
+	font-size: 12px;
+	line-height: 1.62em;
+	margin-bottom: 4em;
+  float: left;
+  width: 48%;
+}
+.numlist li.views-row-odd {
+  margin-right: 4%;
+}
+.numlist li.views-row .views-field-title,
+.numlist li.views-row .views-field-body {
+  margin-left: 110px;
+}
+.numlist li p {
+	margin-bottom: 0;
+}
+.numlist li a {
+	color: #8bb339;
+	text-transform: uppercase;
+}
+.numlist li.views-row .views-field-title a {
+	font: bold 20px/24px Helvetica,sans-serif;
+	display: inline-block;
+	margin-bottom: 9px;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+.numlist .learnmore a {
+  color: #231F20;
+  display: block;
+  text-align: right;
+}
+.numlist li a:hover {
+	color: #a7997c;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+  text-decoration: none;
+}
+.numlist li .badge {
+  background-color: #333333;
+  background-image: -webkit-linear-gradient(top, #231F20 25%, #444444 100%);
+  background-image: linear-gradient(to bottom, #231F20 25%, #444444 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff231F20', endColorstr='#ff444444', GradientType=0);
+  background-repeat: repeat-x;
+	border-radius: 79px;
+ 	box-shadow: 2px 2px 5px #333333;
+  color: #AAAAAA;
+  display: inline-block;
+	float: left;
+	font: bold 36px/74px Verdana,sans-serif;
+	height: 79px;
+	margin: 0 20px 0 0;
+  min-width: 10px;
+  padding: 0;
+  text-align: center;
+	text-shadow: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+  width: 79px;
 }
 
 /*
