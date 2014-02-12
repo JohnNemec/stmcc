@@ -218,16 +218,13 @@ var {
 .herobgwrapper,
 .views_slideshow_cycle_main {
   margin: 1.62em auto 0;
+  max-width: 1170px;
 }
 .herobg {
-  display: inline-block;
+
+}
+.views_slideshow_cycle_main img {
   width: 100%;
-  height: 350px;
-  vertical-align: middle;
-  background-size: 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  /* background-image in node--hero_banner.tpl.php with php */
 }
 
 /*
