@@ -99,7 +99,29 @@
 }
 
 /* Hero Banner */
-.herobgwrapper {
+.herobgwrapper,
+.views_slideshow_cycle_main {
   margin: 1.62em auto 0;
   max-width: 1170px;
+}
+
+.views_slideshow_cycle_main .field-name-title h2 {
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+  position: absolute;
+  left: 100px;
+  top: 25px;
+}
+.views_slideshow_cycle_main .field-name-body {
+  display: block;
+  width: 400px;
+  left: 400px;
+  position: absolute;
+  top: 200px;
+}
+.views_slideshow_cycle_main .field-name-body p {
+  color: #A7997C;
+  font-size: 1.2em;
+  text-align: center;
 }

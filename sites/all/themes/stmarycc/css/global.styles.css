@@ -312,7 +312,8 @@ var {
 /*
  * The main page title (h1)
  */
-#page-title {
+#page-title,
+.field-name-title h2 {
   color: #534934;
   font-size: 4em;
   margin: 0;
