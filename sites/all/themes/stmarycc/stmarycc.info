@@ -164,7 +164,7 @@
   settings[tablet_portrait_page_width]     = 100
   settings[tablet_portrait_sidebar_first]  = 50
   settings[tablet_portrait_sidebar_second] = 50
-  settings[tablet_portrait_media_query]    = 'only screen and (min-width:481px) and (max-width:768px)'
+  settings[tablet_portrait_media_query]    = 'only screen and (min-width:498px) and (max-width:768px)'
 
 
   ; Layout settings - Smartphone landscape
@@ -174,7 +174,7 @@
   settings[smartphone_landscape_page_width]     = 100
   settings[smartphone_landscape_sidebar_first]  = 50
   settings[smartphone_landscape_sidebar_second] = 50
-  settings[smartphone_landscape_media_query]    = 'only screen and (min-width:321px) and (max-width:480px)'
+  settings[smartphone_landscape_media_query]    = 'only screen and (min-width:321px) and (max-width:497px)'
 
 
   ; Layout settings - Smartphone portrait
