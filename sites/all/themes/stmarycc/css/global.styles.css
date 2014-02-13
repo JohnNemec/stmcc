@@ -150,6 +150,30 @@ var {
  */
 #content {}
 
+#main-content #content .ds-3col-stacked-equal > .group-left > div,
+#main-content #content .ds-3col-stacked-equal > .group-middle > div,
+#main-content #content .ds-3col-stacked-equal > .group-right > div {
+  padding: 0 1.62em;
+  margin-top: 1.62em;
+}
+#main-content #content .ds-3col-stacked-equal > .group-left p > a,
+#main-content #content .ds-3col-stacked-equal > .group-middle p > a,
+#main-content #content .ds-3col-stacked-equal > .group-right p > a {
+  color: #8BB339;
+  font: bold 20px/24px Helvetica;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+#main-content #content .ds-3col-stacked-equal > .group-left p > a:hover,
+#main-content #content .ds-3col-stacked-equal > .group-middle p > a:hover,
+#main-content #content .ds-3col-stacked-equal > .group-right p > a:hover{
+	color: #a7997c;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+  text-decoration: none;
+}
+
 /*
  * Footer wrapper
  */
