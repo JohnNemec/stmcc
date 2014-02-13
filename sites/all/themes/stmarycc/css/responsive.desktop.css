@@ -31,6 +31,25 @@
   max-width: 1170px;
 }
 
+/* Footer Navigation Menu */
+#block-menu-menu-footer-menu .menu,
+#block-menu-menu-footer-menu .menu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#block-menu-menu-footer-menu .block-inner .block-content > .menu > li > .menu > li.menu-depth-2 {
+  margin-bottom: 1.62em;
+}
+#block-menu-menu-footer-menu .menu li > .menu {
+  margin-left: 0.5em;
+}
+#block-menu-menu-footer-menu .block-inner .block-content > .menu > li {
+  float: left;
+  margin-right: 1.62em;
+  min-width: 225px;
+}
+
 /* Search */
 #search-block-form {
   float: right;

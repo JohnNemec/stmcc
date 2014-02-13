@@ -153,7 +153,33 @@ var {
 /*
  * Footer wrapper
  */
-#footer {}
+#footer {
+  background: none repeat scroll 0 0 #231F20;
+}
+#footer .region-footer {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 1.62em 0;
+}
+#footer #block-menu-menu-footer-menu .menu .nolink {
+  border-bottom: 1px dashed #AAAAAA;
+  color: #8BB339;
+  display: block;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.menu-depth-1 > .nolink:first-child {
+  display: none !important;
+}
+#block-menu-menu-footer-menu .menu a {
+  color: #AAAAAA;
+}
+#block-menu-menu-footer-menu .menu a:hover,
+#block-menu-menu-footer-menu .menu a:active,
+#block-menu-menu-footer-menu .menu a.active {
+  color: #E5E5E5;
+  text-decoration: none;
+}
 
 /*
  * Panels may need additional margin wrangling when in the $content region
