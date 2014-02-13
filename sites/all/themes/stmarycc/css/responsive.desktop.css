@@ -32,6 +32,9 @@
 }
 
 /* Footer Navigation Menu */
+#block-menu-menu-footer-menu {
+  float: left;
+}
 #block-menu-menu-footer-menu .menu,
 #block-menu-menu-footer-menu .menu li {
   list-style: none;
