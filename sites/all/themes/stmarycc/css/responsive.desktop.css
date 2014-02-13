@@ -103,7 +103,13 @@
 .views_slideshow_cycle_main {
   max-width: 1170px;
 }
-
+.views-slideshow-cycle-main-frame {
+  width: auto !important;
+  max-width: 1170px;
+}
+.views_slideshow_cycle_slide {
+  width: 100% !important;
+}
 .views_slideshow_cycle_main .field-name-title h2 {
   margin: 0;
   text-align: left;
