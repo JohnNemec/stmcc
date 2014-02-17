@@ -288,7 +288,26 @@ var {
  */
 #tertiary-content-wrapper {}
 #tertiary-content-wrapper .container {}
-
+.region-tertiary-content {
+  margin: 1.62em 0;
+}
+.region-tertiary-content .block {
+  clear: both;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.region-tertiary-content .block .left38wrapper {
+  float: left;
+  width: 38%;
+}
+.region-tertiary-content .block .right62wrapper {
+  float: right;
+  width: 62%;
+}
+.region-tertiary-content .block .left38wrapper .inner,
+.region-tertiary-content .block .right62wrapper .inner {
+  padding: 0 1.62em;
+}
 /*
  * Footer wrapper
  */
@@ -838,9 +857,15 @@ ul.menu li.last {}
 .tb-megamenu .dropdown-menu li > a:focus, 
 .tb-megamenu .dropdown-submenu:hover > a,
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle, 
-.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
+.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle,
+.tb-megamenu .dropdown-menu .active > a, 
+.tb-megamenu .dropdown-menu .active > a:hover {
   background-color: inherit;
   color: #8bb339;
+}
+.tb-megamenu .dropdown-menu .active > a, 
+.tb-megamenu .dropdown-menu .active > a:hover {
+  background-image: none;
 }
 
 
