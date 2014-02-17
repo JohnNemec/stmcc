@@ -185,6 +185,9 @@ var {
   max-width: 1170px;
   padding: 1.62em 0;
 }
+#footer #block-menu-menu-footer-menu {
+  z-index: 1000;
+}
 #footer #block-menu-menu-footer-menu .menu .nolink {
   border-bottom: 1px dashed #AAAAAA;
   color: #8BB339;
@@ -307,6 +310,15 @@ var {
 .region-tertiary-content .block .left38wrapper .inner,
 .region-tertiary-content .block .right62wrapper .inner {
   padding: 0 1.62em;
+}
+.region-tertiary-content .title {
+  color: #8BB339;
+  font: bold 20px/24px Helvetica;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.region-tertiary-content p {
+  text-indent: 1em;
 }
 /*
  * Footer wrapper
