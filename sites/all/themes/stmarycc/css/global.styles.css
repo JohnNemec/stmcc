@@ -311,14 +311,14 @@ var {
 .region-tertiary-content .block .right62wrapper .inner {
   padding: 0 1.62em;
 }
+.region-tertiary-content p {
+  margin-left: 1em;
+}
 .region-tertiary-content .title {
   color: #8BB339;
   font: bold 20px/24px Helvetica;
-  margin-bottom: 0;
+  margin: 0;
   text-transform: uppercase;
-}
-.region-tertiary-content p {
-  text-indent: 1em;
 }
 /*
  * Footer wrapper
