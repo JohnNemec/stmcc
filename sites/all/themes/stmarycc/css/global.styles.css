@@ -1198,7 +1198,8 @@ field-name-field-address {
 }
 .view-id-physicians.view-display-id-page .views-row {
   float: left;
-  min-width: 25%;
+  min-width: 33%;
+  text-align: center;
 }
 .view-id-physicians.view-display-id-page .views-row .views-field-title a {
   color: #008000;
