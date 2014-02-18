@@ -525,7 +525,7 @@ ul.links li {
   color: #AAAAAA;
   display: inline-block;
 	float: left;
-	font: bold 36px/74px Verdana,sans-serif;
+	font: bold 36px/74px 'Droid Sans',Helvetica,sans-serif;
 	height: 79px;
 	margin: 0 20px 0 0;
   min-width: 10px;
@@ -535,6 +535,26 @@ ul.links li {
   vertical-align: baseline;
   white-space: nowrap;
   width: 79px;
+}
+#block-views-services-block .numlist li.views-row {
+  float: none;
+  width: auto;
+  margin-bottom: 2em;
+}
+#block-views-services-block .numlist li .badge {
+  border-radius: 20px;
+  font: bold 24px/40px 'Droid Sans',Helvetica,sans-serif;
+  height: 40px;
+  width: 40px;
+}
+#block-views-services-block .numlist li.views-row .views-field-title {
+  margin-left: 60px;
+}
+#block-views-services-block .numlist li.views-row .views-field-title a {
+  display: inline-block;
+  font: bold 20px/24px 'Droid Sans',Helvetica,sans-serif;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 
 /*
@@ -1152,12 +1172,28 @@ ul.action-links li {}
 /*
  * Labels are h2 in Adaptivetheme. Use a strong selector to mitigate unwanted ineritance issues
  */
+.node-type-physicians .ds-2col-fluid > .group-left {
+  float: left;
+  width: 60%;
+}
+.node-type-physicians .ds-2col-fluid > .group-right {
+  float: right;
+  width: 35%;
+}
 .field-label {
   font-size: 1em;
   font-weight: 700;
-  font-family: inherit;
   line-height: inherit;
   margin-bottom: 0;
+}
+.field-name-field-photo {
+  float:left;
+  margin-right: 1.62em;
+}
+field-name-field-address {
+  color: #8BB339;
+  font-size: 1.25em;
+  text-decoration: underline;
 }
 
 
