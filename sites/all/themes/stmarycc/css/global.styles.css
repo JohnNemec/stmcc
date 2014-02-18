@@ -292,7 +292,8 @@ var {
 #tertiary-content-wrapper {}
 #tertiary-content-wrapper .container {}
 .region-tertiary-content {
-  margin: 1.62em 0;
+  background: none repeat scroll 0 0 #E6E3DC;
+  padding: 3em 0;
 }
 .region-tertiary-content .block {
   clear: both;
