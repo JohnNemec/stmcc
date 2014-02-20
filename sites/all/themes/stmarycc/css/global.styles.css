@@ -398,10 +398,15 @@ var {
 #page-title,
 .field-name-title h2 {
   color: #534934;
-  font-size: 4em;
+  font-size: 3em;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
+}
+.node-type-physicians #page-title,
+.node-type-physicians .field-name-title h2 {
+  text-align: left;
+  text-transform: none;
 }
 
 .view-header,
