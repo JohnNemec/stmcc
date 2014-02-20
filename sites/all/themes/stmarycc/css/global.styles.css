@@ -558,6 +558,11 @@ ul.links li {
   margin-top: 8px;
 }
 
+.ds-2col-stacked > .group-right > .field-name-field-right-column,
+.ds-2col-stacked > .group-left > .field-name-field-left-column {
+  margin: 0 1.62em;
+}
+
 /*
  * Search results are an ordered list so reset the margin
  */
