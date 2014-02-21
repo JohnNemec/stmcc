@@ -22,7 +22,7 @@
 #innerheader .region-header {
   clear: right;
   float: right;
-  margin-top: 1.62em;
+  margin-top: 3em;
 }
 
 /* Main Navigation */
@@ -60,58 +60,7 @@
   overflow: hidden;
   position: relative;
 }
-#search-block-form input.form-text {
-  box-shadow: none;
-  border-radius: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  float: none;
-  border: 1px solid #c3c1bd;
-  margin: 0;
-  width: 200px;
-  outline: none;
-  font: 300 12px 'Arial', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 18px;
-  color: #333;
-  background: #ffffff;
-  height: 34px;
-  padding: 7px 15px;
-  resize: none;
-  float: left;
-  margin-right: 2px;
-  background-image: -webkit-linear-gradient(top, #f8f7f5 0%, #edecea 100%);
-  background-image: linear-gradient(to bottom, #f8f7f5 0%, #edecea 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f7f5', endColorstr='#ffedecea', GradientType=0);
-}
-#search-block-form .form-submit {
-  box-shadow: none;
-  position: relative;
-  padding: 8px 17px;
-  font: bold 13px 'Roboto';
-  margin: 0;
-  letter-spacing: 0;
-  text-shadow: none;
-  color: #ffffff;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  background-image: -webkit-linear-gradient(top, #333333 0%, #444444 100%);
-  background-image: linear-gradient(to bottom, #333333 0%, #444444 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff444444', GradientType=0);
-  text-decoration: none;
-  display: inline-block;
-}
-#search-block-form .form-submit:hover {
-  color: #ffffff;
-  background-image: -webkit-linear-gradient(top, #444444 0%, #555555 100%);
-  background-image: linear-gradient(to bottom, #444444 0%, #555555 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff555555', GradientType=0);
-  text-decoration: none !important;
-}
+
 
 /* Content Area */
 

@@ -185,7 +185,7 @@ function template_preprocess_tb_megamenu_submenu(&$vars) {
   $vars['attributes_array']['data-class'] = $submenu_config['class'];
   $vars['attributes_array']['data-width'] = $submenu_config['width'];
   if (!empty($submenu_config['width'])) {
-    $vars['attributes_array']['style'] = "width: " . $submenu_config['width'] . "px;";
+    $vars['attributes_array']['style'] = "width:100%"; // . $submenu_config['width'] . "px;";
   }
 }
 

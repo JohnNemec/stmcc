@@ -186,7 +186,7 @@ var {
   padding: 1.62em 0;
 }
 #footer #block-menu-menu-footer-menu {
-  z-index: 1000;
+  z-index: 500;
 }
 #footer #block-menu-menu-footer-menu .menu .nolink {
   border-bottom: 1px dashed #AAAAAA;
@@ -338,7 +338,34 @@ var {
 /*
  * Wraps all the branding elements, logo, name and slogan
  */
-#branding {}
+#branding {
+  clear: none;
+  float: left;
+}
+#secondary-menu-bar {
+  clear: none;
+  float: right;
+}
+#innerheader .region-header {
+  clear: right;
+  float: right;
+  margin-top: 3em;
+}
+@media (max-width: 640px) {
+  #branding {
+    clear: both;
+    float: none;
+  }
+  #secondary-menu-bar {
+    clear: both;
+    float: none;
+  }
+  #innerheader .region-header {
+    clear: both;
+    float: none;
+    margin-top: 0;
+  }
+}
 
 /*
  * Logo
@@ -884,8 +911,8 @@ ul.menu li.last {}
   background-image: linear-gradient(to bottom, #231F20 0%, #444444 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff231F20', endColorstr='#ff444444', GradientType=0);
   background-repeat: repeat-x;
-  color: #AAAAAA;
-  margin: 0 auto;
+  color: #AAAAAA !important;
+  margin: 0 auto !important;
 }
 .tb-megamenu .nav > .active > a, 
 .tb-megamenu .nav > .active > a:hover, 
@@ -904,12 +931,15 @@ ul.menu li.last {}
 .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle,
 .tb-megamenu .dropdown-menu .active > a, 
 .tb-megamenu .dropdown-menu .active > a:hover {
-  background-color: inherit;
-  color: #8bb339;
+  background-color: inherit !important;
+  color: #8bb339 !important;
 }
 .tb-megamenu .dropdown-menu .active > a, 
 .tb-megamenu .dropdown-menu .active > a:hover {
-  background-image: none;
+  background-image: none !important;
+}
+.tb-megamenu .nav > li:last-child > a {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
 }
 
 
@@ -1500,7 +1530,58 @@ field-name-field-address {
  * "Search form" block
  */
 #block-search-form {}
-
+#search-block-form input.form-text {
+  box-shadow: none;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: none;
+  border: 1px solid #c3c1bd;
+  margin: 0;
+  width: 200px;
+  outline: none;
+  font: 300 12px 'Arial', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 18px;
+  color: #333;
+  background: #ffffff;
+  height: 34px;
+  padding: 7px 15px;
+  resize: none;
+  float: left;
+  margin-right: 2px;
+  background-image: -webkit-linear-gradient(top, #f8f7f5 0%, #edecea 100%);
+  background-image: linear-gradient(to bottom, #f8f7f5 0%, #edecea 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f7f5', endColorstr='#ffedecea', GradientType=0);
+}
+#search-block-form .form-submit {
+  box-shadow: none;
+  position: relative;
+  padding: 8px 17px;
+  font: bold 13px 'Roboto';
+  margin: 0;
+  letter-spacing: 0;
+  text-shadow: none;
+  color: #ffffff;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  background-image: -webkit-linear-gradient(top, #333333 0%, #444444 100%);
+  background-image: linear-gradient(to bottom, #333333 0%, #444444 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff444444', GradientType=0);
+  text-decoration: none;
+  display: inline-block;
+}
+#search-block-form .form-submit:hover {
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(top, #444444 0%, #555555 100%);
+  background-image: linear-gradient(to bottom, #444444 0%, #555555 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff555555', GradientType=0);
+  text-decoration: none !important;
+}
 /*
  * "Shortcuts" block
  */

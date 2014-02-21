@@ -3002,7 +3002,7 @@
     margin-left: 0;
   }
 }
-@media (max-width: 979px) {
+@media (max-width: 500px) {
 .tb-megamenu body {
     padding-top: 0;
   }
@@ -3032,6 +3032,10 @@
 .tb-megamenu .nav-collapse {
     clear: both;
   }
+.tb-megamenu .nav-collapse {
+  height: 0;
+  overflow: hidden;
+}  
 .tb-megamenu .nav-collapse .nav {
     float: none;
     margin: 0 0 10px;
@@ -3153,9 +3157,18 @@
     padding-right: 10px;
   }
 }
-@media (min-width: 980px) {
+@media (min-width: 500px) {
 .tb-megamenu .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
+  }
+  .tb-megamenu .btn-navbar {
+    display: none !important;
+  }  
+  .tb-megamenu .nav-collapse {
+    margin-top: 0 !important;
+    position: inherit !important;
+    top: 0 !important;
+    width: 100% !important;
   }
 }
