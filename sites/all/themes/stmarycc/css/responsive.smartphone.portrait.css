@@ -14,3 +14,18 @@ html {
 #block-views-slideshow-block {
   display: none;
 }
+.ds-3col-stacked-equal > .group-left,
+.ds-3col-stacked-equal > .group-middle,
+.ds-3col-stacked-equal > .group-right,
+.region-tertiary-content .block .left38wrapper, 
+.region-tertiary-content .block .right62wrapper {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+.node {
+  margin-bottom: 0;
+}
+#block-system-main {
+  margin-bottom: 0; 
+}
