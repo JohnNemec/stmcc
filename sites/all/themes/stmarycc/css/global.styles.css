@@ -444,11 +444,11 @@ var {
   margin-bottom: 4em;
 }
 .view-header p,
-.group-header p,
-.group-header,
+.group-header .field-name-body p,
+/* .group-header, */
 .node-type-page .field-name-body p {
   color: #404040;
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -594,6 +594,19 @@ ul.links li {
   margin-top: 8px;
 }
 
+.ds-2col-stacked > .group-left,
+.ds-2col-stacked > .group-right {
+  float: left;
+  min-width: 320px;
+  width: 50%;
+}
+@media (max-width: 640px) {
+  .ds-2col-stacked > .group-left,
+  .ds-2col-stacked > .group-right {
+    float: none;
+    width: 100%;
+  }
+}
 .ds-2col-stacked > .group-right > .field-name-field-right-column,
 .ds-2col-stacked > .group-left > .field-name-field-left-column {
   margin: 0 1.62em;
