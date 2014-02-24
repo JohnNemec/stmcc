@@ -1241,10 +1241,24 @@ ul.action-links li {}
 .node-type-physicians .ds-2col-fluid > .group-left {
   float: left;
   width: 60%;
+  min-width: 400px;
+}
+.node-type-physicians .ds-2col-fluid > .group-left .field-name-field-address {
+  clear: both;
 }
 .node-type-physicians .ds-2col-fluid > .group-right {
   float: right;
   width: 35%;
+}
+@media (max-width: 640px) {
+  .node-type-physicians .ds-2col-fluid > .group-left {
+    float: none;
+    width: 100%;
+  }
+  .node-type-physicians .ds-2col-fluid > .group-right {
+    float: none;
+    width: 100%;
+  }
 }
 .field-label {
   font-size: 1em;
