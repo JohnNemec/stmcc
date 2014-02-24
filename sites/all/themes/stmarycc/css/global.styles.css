@@ -36,6 +36,7 @@ html {
 
 
 body {
+  color: #404040;
   font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 87.5%;
 }
@@ -156,12 +157,13 @@ var {
   padding: 0 1.62em;
   margin-top: 1.62em;
 }
+/*
 #main-content #content .ds-3col-stacked-equal > .group-left p > a,
 #main-content #content .ds-3col-stacked-equal > .group-middle p > a,
 #main-content #content .ds-3col-stacked-equal > .group-right p > a {
   color: #8BB339;
   font: bold 20px/24px 'Droid Sans', Helvetica, sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize; 
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
@@ -173,7 +175,7 @@ var {
 	transition: all 0.25s ease;
   text-decoration: none;
 }
-
+*/ 
 /*
  * Footer wrapper
  */
@@ -319,7 +321,7 @@ var {
   color: #8BB339;
   font: bold 20px/24px 'Droid Sans', Helvetica, sans-serif;
   margin: 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 /*
  * Footer wrapper
@@ -424,11 +426,11 @@ var {
  */
 #page-title,
 .field-name-title h2 {
-  color: #534934;
-  font-size: 3em;
+  color: #333333;
+  font-size: 2.5em;
   margin: 0;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .node-type-physicians #page-title,
 .node-type-physicians .field-name-title h2 {
@@ -443,8 +445,8 @@ var {
 .view-header p,
 .group-header p,
 .group-header {
-  color: #A7997C;
-  font-size: 1.2em;
+  color: #404040;
+  font-size: 1.1em;
   text-align: center;
 }
 
@@ -679,6 +681,7 @@ ul.links li {
 
 a {
   text-decoration: none;
+  color: #8BB339;
 }
 
 a:link,
@@ -689,7 +692,7 @@ a.active {}
 
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
