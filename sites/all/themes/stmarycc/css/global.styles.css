@@ -194,7 +194,7 @@ var {
   border-bottom: 1px dashed #AAAAAA;
   color: #8BB339;
   display: block;
-  font-size: 1.25em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 .menu-depth-1 > .nolink:first-child {
@@ -425,7 +425,8 @@ var {
  * The main page title (h1)
  */
 #page-title,
-.field-name-title h2 {
+.field-name-title h2,
+.node-type-page .field-name-body h1 {
   color: #333333;
   font-size: 2.5em;
   margin: 0;
@@ -444,7 +445,8 @@ var {
 }
 .view-header p,
 .group-header p,
-.group-header {
+.group-header,
+.node-type-page .field-name-body p {
   color: #404040;
   font-size: 1.1em;
   text-align: center;
