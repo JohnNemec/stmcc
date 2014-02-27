@@ -41,6 +41,14 @@ body {
   font-size: 87.5%;
 }
 
+::selection {
+  color: #231F20;
+  background:#8bb339;
+}
+::-moz-selection {
+  color: #231F20;
+  background:#8bb339;
+}
 
 /* =============================================================================
  *   HTML Elements
