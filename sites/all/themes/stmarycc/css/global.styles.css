@@ -1300,9 +1300,10 @@ field-name-field-address {
   text-align: center;
 }
 .view-id-physicians.view-display-id-page .views-row .views-field-title a {
-  color: #008000;
+  color: #8bb339;
   font-size: 1.25em;
   text-align: center;
+  font-weight: bold;
 }
 
 /*
