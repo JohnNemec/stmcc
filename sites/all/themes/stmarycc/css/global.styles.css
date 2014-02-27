@@ -58,6 +58,10 @@ h5 {}
 
 h6 {}
 
+h2, h3, h4, h5, h6 {
+  color: #8BB339;
+}
+
 p {}
 
 b,
@@ -317,7 +321,8 @@ var {
 .region-tertiary-content p {
   margin-left: 1em;
 }
-.region-tertiary-content .title {
+.region-tertiary-content .title,
+.field-name-field-address h2 {
   color: #8BB339;
   font: bold 20px/24px 'Droid Sans', Helvetica, sans-serif;
   margin: 0;
@@ -594,6 +599,11 @@ ul.links li {
   margin-top: 8px;
 }
 
+.node-physicians .group-right h2,
+.node-physicians .group-right h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
 .ds-2col-stacked > .group-left,
 .ds-2col-stacked > .group-right {
   float: left;
@@ -1269,6 +1279,7 @@ ul.action-links li {}
 .field-name-field-photo {
   float:left;
   margin-right: 1.62em;
+  margin-bottom: 1em;
 }
 field-name-field-address {
   color: #8BB339;
