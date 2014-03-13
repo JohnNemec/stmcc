@@ -1338,10 +1338,17 @@
   visibility: hidden;
 }
 
+@media (max-width: 480px) {
+.tb-megamenu .always-show .tb-megamenu-li > .mega-dropdown-menu,
+.tb-megamenu .always-show .dropdown-menu {
+    display: none;
+  }
+}
+
 @media (max-width: 979px) {
 .tb-megamenu .always-show .tb-megamenu-li > .mega-dropdown-menu,
 .tb-megamenu .always-show .dropdown-menu {
-    display: block !important;
+    /* display: block; */
   }
 .tb-megamenu .navbar-collapse-fixed-top,
 .tb-megamenu .navbar-collapse-fixed-bottom {
@@ -1415,7 +1422,7 @@
 .tb-megamenu .nav-collapse .nav > li > a:hover,
 .tb-megamenu .nav-collapse .nav > li > a:focus {
     background-color: #fff;
-    background-image: none;
+    /* background-image: none;*/
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 	color: #e54e4b;
   }

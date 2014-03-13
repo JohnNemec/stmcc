@@ -29,3 +29,9 @@ html {
 #block-system-main {
   margin-bottom: 0; 
 }
+.tb-megamenu .btn-navbar {
+  margin-left: 1em;
+}
+#logo {
+  text-align: center;
+}
